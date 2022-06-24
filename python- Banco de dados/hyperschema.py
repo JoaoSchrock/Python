@@ -68,6 +68,9 @@ f = open(filename, 'r')
 print "Opened " + filename + " for input"
 
 
+f
+
+
 
 
 #

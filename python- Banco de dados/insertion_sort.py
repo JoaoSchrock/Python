@@ -9,3 +9,4 @@ def insertion_sort(l):
     return l
 
 assert insertion_sort([1,2,3,9,8,7])==[1,2,3,7,8,9]
+d

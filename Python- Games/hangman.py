@@ -109,4 +109,4 @@ class hmTarget(game.Target):
 ######### DO IT ############
 if __name__ == "__main__":
     Hangman().play()
-    s
+    

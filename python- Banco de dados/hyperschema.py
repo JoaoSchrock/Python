@@ -262,7 +262,7 @@ for table_iter in table_list:
     if len(table_iter['fkeys']) == 0:
 	f.write("<CENTER>No foreign keys point to this table.</CENTER><BR>\n")
     else:
-    	f.write("<CENTER><A HREF=\"#fkeys\">Foreign keys pointing to this table:</A></CENTER><BR>\n")
+    	f.write("<CENTER><A HREF=\s"#fkeys\">Foreign keys pointing to this table:</A></CENTER><BR>\n")
     	
     f.write("<TABLE ALIGN=\"CENTER\" BORDER=\"1\" cellpadding=\"3\">\n")
     f.write("<TR BGCOLOR=\"#D0D0D0\"><TH>Column Name</TH><TH>Data Type</TH><TH>Nullable</TH></TR>\n")

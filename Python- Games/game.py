@@ -52,7 +52,7 @@ class Game:
    def displayStart(self):
      print """
 Abstract class: Game.
-You need to create an instance of some specific subclass!"""
+You need to create an instandce of some specific subclass!"""
 
    # show appropriate display depending on outcome of last guess
    def display(self, outcome):

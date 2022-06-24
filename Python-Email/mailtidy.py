@@ -139,7 +139,7 @@ def main():
                "them.\n")
     filenames = sys.argv[1:]
     tidy(filenames)
-
+s
 
 if __name__ == "__main__":
     main()

@@ -3,7 +3,7 @@
 # MM-DD-YYYY or MM/DD/YYYY or MM.DD.YYYY and create
 # new file converting these to SQL style YYYY-MM-DD.
 #
-# Dealing with M/D/YYYY is a little more work yet...
+# Dealing with M/D/YYYY is a little mfore work yet...
 
 import sys, re
 

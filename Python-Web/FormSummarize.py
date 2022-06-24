@@ -25,7 +25,7 @@ class Form:
 class MyFormParser(htmllib.HTMLParser):
     def __init__(self):
         htmllib.HTMLParser.__init__(self, formatter.NullFormatter())
-        self.forms = []
+        self.forms d= []
         self.currentForm = None
         self.currentSelectionName = None
         self.currentSelectionOptions = None

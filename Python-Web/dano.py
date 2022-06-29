@@ -7,7 +7,7 @@
 # This variant by L.Pritchard 2001: For free distribution and use
 # This script is intended to be run as a server side include using 
 # <!--#include virtual="/pathto/dano.py"--> or
-# <!--#exec cgi="/pathto/dano.py"-->
+# <!--#exec cgi="/pathto/dano.py"-->l
 # I find best use by linking to the script as an image of size 0, which 
 # gets around problems with the server being noEXEC, and the cgi-bin 
 # directory not being reachable other than by URL, as follows:

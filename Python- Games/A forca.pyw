@@ -66,23 +66,23 @@ class arquivos:
         lin=self.canvas.create_line
         boca=self.canvas.create_arc
         
-        b=str(self.nom.get().upper()[0]) #transforma em string e só pega o primeiro
+        b=str(self.nom.get().upper()[0]) #transforma em string e sÃ³ pega o primeiro
         #caracter
         for t in range(len(lista_letras)):
             if b == lista_letras[t]:
                 lista_traco[t]=lista_letras[t]
                 self.msg['text']=lista_traco
                 if b not in digito:
-                    digito.append(b)#só adciona ao digito se não houver nele
+                    digito.append(b)#sÃ³ adciona ao digito se nÃ£o houver nele
         if b not in lista_letras:
             lista_erro.append(b)
             self.msg2['text']=lista_erro
         self.caixa.set('')
         if len(digito) == len(lista_traco):
-            self.msg3['text']='Jogo Ganho! Parabéns!'
+            self.msg3['text']='Jogo Ganho! ParabÃ©ns!'
             self.msg3['fg']='green'
         if len(lista_erro) == 10:
-            self.msg3['text']='10 erros, você perdeu!',lista_letras
+            self.msg3['text']='10 erros, vocÃª perdeu!',lista_letras
             self.msg3['fg']='red'
             self.msg.destroy()
             self.nom.destroy()
@@ -121,3 +121,6 @@ class arquivos:
 janela=Tk()
 arquivos(janela)
 janela.mainloop()
+
+vou surfar amanha
+
